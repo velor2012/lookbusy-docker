@@ -1,6 +1,6 @@
 # lookbusy-docker
 
-用于使你的服务器看起来很忙碌
+用于使你的服务器看起来很忙碌，简单易用！懒得看部署方法可以直接跳到最后用懒人方法
 原项目为 https://github.com/flow2000/lookbusy
 本项目将其封装为docker进行部署
 
