@@ -36,8 +36,7 @@ docker run -d --name lookbusy --restart=always -v /PATH/TO/start.sh:/app/start.s
 ## 懒人方法
 ### 二进制文件启动
 ``` shell
-wget https://raw.githubusercontent.com/velor2012/lookbusy-docker/main/lookbusy${-arm} -O lookbusy
-&& chmod +x lookbusy
+wget https://raw.githubusercontent.com/velor2012/lookbusy-docker/main/lookbusy${-arm} -O lookbusy && chmod +x lookbusy
 ./lookbusy -c 50-60 -r curve -n 2 # 运行参数请根据实际情况修改
 ```
 **注意**如果是arm架构，需要在lookbusy后加上-arm
