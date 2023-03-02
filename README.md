@@ -9,7 +9,7 @@
 ### 构建镜像
 克隆本仓库后
 ``` shell
-docker build . t lookbusy
+docker build -t lookbusy .
 ```
 
 ### 修改运行参数
